@@ -4,41 +4,28 @@
     "nav nav nav"
     "main main main"
     "footer footer footer";
-    
+}
   
-  
-  }
-  
-  .contenedor div {
-    
+.contenedor div {
     color: #000000;
     text-align: center;
-    
-  }
+}
   /* fondo del body */
-  body {
+body {
     margin: 5px;
-     
-            
-  }
-  .item-1 {
+}
+.item-1 {
     grid-area: header;
-    
-  }
+}
   
-  .item-2 {
+.item-2 {
     grid-area: nav;
-    background-color: rgb(89, 94, 92);  
-    
-  }
+}
   
-  .item-3 {
+.item-3 {
     grid-area: main;
-    
-    
-  }
+}
   
-  .item-4 {
+.item-4 {
     grid-area: footer;  
-    
-  }
+}
