@@ -59,7 +59,7 @@ div {
  }
 
 div {
-  background-color:#3673D9;
+  background-color:#4b515a;
   Text-align:center;
   Padding:0.5rem;
   Font-size:15px;
@@ -69,6 +69,9 @@ div {
 	Display:flex;
 flex-direction:row;
 justify-content:center;
+}
+.card-body {
+  text-align: center !important;
 }
 
 .contenedor {
@@ -81,7 +84,7 @@ justify-content:center;
 
 .contenedor div {
   color: #000000;
-  text-align: center;
+  text-align: left;
 }
 /* fondo del body */
 body {
@@ -100,5 +103,7 @@ body {
 }
 
 .item-4 {
-  grid-area: footer;  
+  grid-area: footer;
+      
 }
+
